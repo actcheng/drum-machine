@@ -9,6 +9,25 @@
   height: 100px;
   width: 100px;
   border-radius: 5px;
+  border: 1px solid #c291c0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.drum-pad:hover{
+  background-color: #d597d2;
+  cursor: pointer;
+}
+
+.pad-clicked{
+  background-color: #ab80a9;
+  font-size: 30px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #878786;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -24,6 +43,7 @@
   margin-top:30px;
   border-radius: 20px;
 }
+
 
 #pad-container{
   margin-top: 10px;
